@@ -1,0 +1,59 @@
+html,body{
+    padding:0px;
+    margin:3px;
+}
+
+.container{
+    width:99%;
+}
+#gesture-pad{
+    width:60%;
+    height:370px;
+    min-width:300px;
+    line-height:370px;
+    color:gray;
+    text-align:center;
+    border:1px solid silver;
+    background-color:ghostwhite;
+    float:left;
+    margin-right:15px;
+    margin-bottom:15px;
+}
+.panel{
+    width:60%;
+    min-width:250px;
+    max-width:350px;
+    float:left;
+}
+
+#detected{
+    border:1px solid silver;
+    border-radius:10px;
+    height:1em;
+    line-height:1em;
+    text-align:center;
+    background-color:seagreen;
+    color:white;
+    padding: 4px 6px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.detector{
+    border:1px solid silver;
+    border-radius:10px;
+    height:1em;
+    margin-bottom:10px;
+    line-height:1em;
+    text-align:center;
+    width: 20%;
+    display: inline-block;
+}
+.selected{
+    background-color:palegreen;
+}
+
+.gesturelist{
+    float:left;
+    margin-right:10px;
+}

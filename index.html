@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="lib/hammer.min.js"></script>
+    <script type="text/javascript" src="lib/quo.js"></script>
+    <script type="text/javascript" src="lib/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="lib/jquery.touchy.min.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+    <link rel="stylesheet" href="demo.css" />
+</head>
+<body>
+<div class="container">
+    <div class="title">
+        <h2>Gesture Detector</h2>
+    </div>
+
+<div class="list">
+    <div id="hammer" class="detector">
+        Hammer.js
+    </div>
+    <div id="quojs" class="detector">
+        QuoJS
+    </div>
+    <div id="touchSwipe" class="detector">
+        TouchSwipe
+    </div>
+    <div id="touchy" class="detector">
+        Touchy
+    </div>
+</div>
+<div class="detected-guesture">
+    Detected Gesture
+
+    <div id="detected" >No Gesture yet.
+    </div>
+</div>
+    <div id="gesture-pad">
+        Gesture Here!!
+    </div>
+
+    <br style="clear:both"/>
+</div>
+<br/>
+<div class="container">
+    <h2>Gestures of each library.</h2>
+    <div class="gesturelist">
+        <a href="https://github.com/EightMedia/hammer.js">Hammer.js</a>
+        <ul id="hammerList">
+            <li>touch</li>
+            <li>release</li>
+            <li>hold</li>
+            <li>tap</li>
+            <li>doubletap</li>
+            <li>dragstart</li>
+            <li>drag</li>
+            <li>dragend</li>
+            <li>dragleft</li>
+            <li>dragright</li>
+            <li>dragup</li>
+            <li>dragdown</li>
+            <li>swipe</li>
+            <li>swipeleft</li>
+            <li>swiperight</li>
+            <li>swipeup</li>
+            <li>swipedown</li>
+            <li>transformstart</li>
+            <li>transform</li>
+            <li>transformend</li>
+            <li>rotate</li>
+            <li>pinch</li>
+            <li>pinchin</li>
+            <li>pinchout</li>
+        </ul>
+    </div>
+
+    <div class="gesturelist">
+        <a href="https://github.com/soyjavi/QuoJS">Quo.js</a>
+        <ul id="quojsList">
+            <li>tap</li>
+            <li>hold</li>
+            <li>singleTap</li>
+            <li>doubleTap</li>
+            <li>swipe</li>
+            <li>swiping</li>
+            <li>swipeLeft</li>
+            <li>swipeRight</li>
+            <li>swipeDown</li>
+            <li>pinch</li>
+            <li>pinching</li>
+            <li>pinchIn</li>
+            <li>pinchOut</li>
+            <li>rotate</li>
+            <li>rotating</li>
+            <li>rotateLeft</li>
+            <li>rotateRight</li>
+        </ul>
+    </div>
+
+    <div class="gesturelist">
+        <a href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin">TouchSwipe</a>
+        <ul id="touchSwipeList">
+            <li>tap</li>
+            <li>longTap</li>
+            <li>doubleTap</li>
+            <li>swipe</li>
+            <li>swipeLeft</li>
+            <li>swipeRight </li>
+            <li>swipeUp</li>
+            <li>swipeDown</li>
+            <li>swipesingleTap</li>
+            <li>pinchIn</li>
+            <li>pinchOut</li>
+        </ul>
+    </div>
+
+    <div class="gesturelist">
+        <a href="http://touchyjs.org/">Touchy</a>
+        <ul id="touchyList">
+            <li>touchy-longpress</li>
+            <li>touchy-drag</li>
+            <li>touchy-pinch</li>
+            <li>touchy-rotate</li>
+            <li>touchy-swipe</li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
